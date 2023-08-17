@@ -8,6 +8,6 @@ export default class User {
     }
 
     exibirInfos(){
-        return `${this.nome},${this.email}`;
+        return `${this.nome} - ${this.email}`;
     }
 }
