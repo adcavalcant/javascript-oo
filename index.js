@@ -6,6 +6,9 @@ const novoUser = new User("Mariana", "m@m.com", "2021-01-01");
 // console.log(novoUser.exibirInfos());
 
 const novoAdmin = new Admin("Rodrigo", "r@r.com", "2021-01-01");
-// console.log(novoAdmin.exibirInfos());
- 
+// console.log(novoAdmin.exibirInfos()); 
+
+console.log(novoAdmin.nome);
+
+novoAdmin.nome ='Rafael';
 console.log(novoAdmin.nome);
