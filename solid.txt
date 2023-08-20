@@ -1,0 +1,7 @@
+SOLID
+
+S -> Single Responsibility Principle - Princípio da responsabilidade ÚNICA. (Uma função tem que ter apenas uma responsabilidade)
+O -> Open/Closed Principle - Princípio do Aberto/Fechado. (A classe tem que estar ABERTA para ser expandida, porém FECHADA para modificações.)
+L -> Liskov Substitution Principle - Princípio da Substituição de Liskov.
+I -> Interface Segregation Principle - Princípio da Segregação de Interface. 
+D -> Dependency Inversion Principle - Princípio da Inversão de Dependência.
