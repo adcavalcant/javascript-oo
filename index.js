@@ -8,7 +8,10 @@ const novoUser = new User("Mariana", "m@m.com", "2021-01-01");
 const novoAdmin = new Admin("Rodrigo", "r@r.com", "2021-01-01");
 // console.log(novoAdmin.exibirInfos()); 
 
-console.log(novoAdmin.nome);
+// console.log(novoAdmin.nome);
 
-novoAdmin.nome ='Rafael';
-console.log(novoAdmin.nome);
+// novoAdmin.nome ='Rafael';
+// console.log(novoAdmin.nome);
+
+const novoDocente = new Docente('Guilherme', 'g@g.com', '2021-08-09');
+console.log(novoDocente.exibirInfos());

@@ -1,7 +1,7 @@
 import User from "./User.js";
 
-export default class Docente extends User{
-    constructor(nome, email, nascimento, role, ativo = true){
+export default class Docente extends User {
+    constructor(nome, email, nascimento, role, ativo = true){ //polimorfismo no construtor
         super(nome, email, nascimento, role, ativo);
     }  
     
